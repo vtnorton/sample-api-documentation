@@ -90,7 +90,7 @@ The status code 201 (Created) will indicate that the request was completed succe
 
 </details>
 
-### Error
+## Error
 
 The following table provides information about common errors that can occur when using the REST standard:
 
