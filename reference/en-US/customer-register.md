@@ -2,12 +2,6 @@
 
 Use this endpoint to register a new customer.
 
-### Prerequisite
-
-To use this endpoint, it’s necessary that:
-
-- the customer has a bank account associated with it.
-
 ## Request
 
 ### HTTP Request
@@ -28,7 +22,13 @@ curl --request POST --url 'https://api-url.com/customers' \
 ```
 
 ```javascript
-fetch("https://api-url.com/customers", {
+const url = "https://api-url.com/customers";
+const data = {
+  name: "NAME OF THE PERSON",
+  email: "email@company.com",
+};
+
+fetch(url, {
   method: "POST",
   headers: {
     "Content-Type": "application/json",
