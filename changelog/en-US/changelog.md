@@ -2,7 +2,7 @@
 
 We've got some exciting news to share! We've just rolled out a brand new feature that makes it super easy for companies to register their customers with associated bank accounts!
 
-To get started, just head on over to the [customer register endpoint](/reference/en-US/customer-register.md) and fill in the required customer details. Once you've created the customer, you'll need to [associate a bank account](/reference/en-US/bank-account-association.md) with them before they can be [set as active](/reference/en-US/customer-set-as-active.md).
+To get started, just head on over to the [customer register endpoint](./../../reference/en-US/customer-register.md) and fill in the required customer details. Once you've created the customer, you'll need to [associate a bank account](./../../reference/en-US/bank-account-association.md) with them before they can be [set as active](./../../reference/en-US/customer-set-as-active.md).
 
 We think this new feature is going to be a game-changer for our customers. It's simple, secure, and makes managing customer accounts and financial transactions easier! We're confident it's going to help our customers grow their businesses more effectively.
 

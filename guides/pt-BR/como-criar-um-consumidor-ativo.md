@@ -6,7 +6,7 @@ O objetivo desta documentação é fornecer instruções sobre como usar a API p
 
 Para criar um novo cliente usando a API, você deve seguir estes passos:
 
-- Envie uma solicitação POST para o [endpoint de criação de cliente](/referencia/pt-BR/cliente-registrar.md);
+- Envie uma solicitação POST para o [endpoint de criação de cliente](./../../reference/pt-BR/registro-consumidor.md);
 - Inclua os campos obrigatórios, como nome do cliente e e-mail, no corpo da solicitação;
 - Após criar com sucesso um novo cliente, a API responderá com um código de status indicando o sucesso, juntamente com um ID de cliente exclusivo que pode ser usado para referenciar o cliente em interações futuras com a API.
 
@@ -14,7 +14,7 @@ Para criar um novo cliente usando a API, você deve seguir estes passos:
 
 Para que o cliente esteja ativo, é necessário ter uma conta bancária associada a ele. Para fazer isso usando a API, você deve seguir estes passos:
 
-- Envie uma solicitação POST para o [endpoint de associação de conta bancária](/referencia/pt-BR/associacao-conta-bancaria.md);
+- Envie uma solicitação POST para o [endpoint de associação de conta bancária](./../../reference/pt-BR/associacao-conta-bancaria.md);
 - Inclua os campos obrigatórios para a conta bancária, como o IBAN e o nome do titular, no corpo da solicitação;
 - Inclua quaisquer campos opcionais, como o número BIC, se necessário;
 - Ao associar com sucesso uma conta bancária ao cliente, a API responderá com um código de status indicando o sucesso.
@@ -23,7 +23,7 @@ Para que o cliente esteja ativo, é necessário ter uma conta bancária associad
 
 Para ativar um cliente usando a API, você deve seguir estes passos:
 
-- Envie uma solicitação POST para o [endpoint de ativação de cliente](/referencia/pt-BR/cliente-ativar.md) incluindo o ID do cliente no caminho do endpoint;
+- Envie uma solicitação POST para o [endpoint de ativação de cliente](./../../reference/pt-BR/definir-consumidor-como-ativo.md) incluindo o ID do cliente no caminho do endpoint;
 - É importante observar que uma conta bancária deve estar associada ao cliente antes que ele possa ser ativado.
 - Ao ativar com sucesso o cliente, a API responderá com um código de status indicando o sucesso.
 
