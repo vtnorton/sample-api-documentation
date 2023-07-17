@@ -5,7 +5,7 @@ The "sample-api-documentation" project is a collection of markdown files that pr
 The documentation is divided into three main types: guides, reference, and changelog. Each type plays an important role in creating comprehensive and useful documentation.
 
 ## Entrypoint
-A nice entrypoint to read the documentation (in english) is the [guides for creating a customer](./guides/en-US/how-to-create-a-actived-customer.md).
+A nice entrypoint to read the documentation (in english) is the [guides for creating a customer](./guides/en-US/how-to-create-a-active-customer.md).
 
 ## Guides
 
